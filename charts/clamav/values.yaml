@@ -216,6 +216,16 @@ podDisruptionBudget:
   # minAvailable: 1
   # maxUnavailable: 1
 
+## args Optional arguments to pass to the entrypoint
+#args: 
+#  - '"--user clamav"'
+args: []
+
+## command Optional command to override the default entrypoint
+# command: 
+#   - /init-unprivileged
+command: []
+
 ## extraVolumes Optionally specify extra list of additional volumes for the Clam Pod(s)
 ##
 extraVolumes: []
